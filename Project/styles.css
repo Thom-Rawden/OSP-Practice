@@ -1,0 +1,15 @@
+.link-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto auto;
+}
+
+.link-item {
+    background-color: red;
+    border-radius: 2vh;
+    min-height: 10vh;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin: 1vh;
+}
