@@ -1,9 +1,8 @@
 <?php
-$menu = "sidebar-menu-default";
-$forecast = "sidebar-item-default";
-$homeRisk = "sidebar-item-default";
-$airQual = "sidebar-item-default";
+require "./config/config.php";
+
 $advice = "sidebar-item-selected";
+$pageName = "Advice Page";
 ?>
 
 <!DOCTYPE html>
