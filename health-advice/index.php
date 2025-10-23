@@ -1,4 +1,7 @@
 <?php
+session_start();
+unset($_SESSION['loginError']);
+
 require "./config/config.php";
 
 $menu = "sidebar-menu-selected";
@@ -15,7 +18,6 @@ $pageName = "Home Page";
 </head>
 <body>
     <?php include "./templates/header.php";?>
-
     <div class="main-container">
         <?php include "./templates/sidebar.php";?>
 

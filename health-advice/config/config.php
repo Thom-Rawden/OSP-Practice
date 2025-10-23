@@ -1,6 +1,7 @@
 <?php
+session_start();
 
-$showLogin = true;
+//$_SESSION['loggedIn'] = true;
 
 $menu = "sidebar-menu-default";
 $forecast = "sidebar-item-default";

@@ -1,4 +1,6 @@
 <?php 
+session_start();
+
 require "./config/config.php";
 
 $showLogin = false;
@@ -33,6 +35,12 @@ $pageName = "Login";
                 <button type="submit" class="login-button">Log in</button>
             </div>
         </form>
+
+        <?php
+        if (isset($_SESSION['loginError'])) {
+            echo($_SESSION['loginError']);
+        }
+        ?>
     </div>
         
         

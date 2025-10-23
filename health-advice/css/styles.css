@@ -35,11 +35,14 @@ a {
     align-content: center;
 }
 
+/* Login Options Container */
+
 .header-login-full {
     background-color: #885A89;
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
+    padding: 1vh;
 }
 
 .header-login-container {
@@ -47,11 +50,10 @@ a {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 0.5fr;
-    margin: 1vh;
     gap: 1vh;
 }
 
-.header-login-signup {
+.header-login-box {
     background-color: #D1B490;
     color: #000;
     font-size: 1.5vw;
@@ -59,6 +61,9 @@ a {
     align-content: center;
     border-radius: 2vh;
 }
+
+
+
 
 .main-container {
     display: grid;
@@ -157,7 +162,7 @@ a {
 /* Login Page */
 
 .login-container {
-    background-color: #ba2fbd;
+    background-color: #885A89;
     display: grid;
     grid-template-rows: auto auto 1fr;
     grid-template-columns: 1fr;
